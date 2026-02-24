@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Safewall Header</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="header-inner d-flex align-items-center justify-content-between">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="./images/UYSFGUGSD 1.png" alt="Safewall" />
+                </div>
+
+                <!-- Desktop Nav -->
+                <nav class="nav-desktop d-none d-lg-flex align-items-center">
+                    <ul class="nav-list">
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Applications</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <a href="#" class="btn-enquire">Enquire Now</a>
+                </nav>
+
+                <!-- Mobile Toggle -->
+                <button class="hamburger d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="mobileMenu">
+        <div class="offcanvas-header">
+            <div class="offcanvas-close" data-bs-dismiss="offcanvas">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="mobile-nav">
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Applications</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <a href="#" class="btn-enquire mobile-btn">Enquire Now</a>
+        </div>
+    </div>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="container">
+            <div class="hero-content">
+
+                <h1 class="hero-title">
+                    <span class="typing typing-1">Designed for Multiple</span><br>
+                    <span class="typing typing-2">Sporting Environments</span>
+                </h1>
+
+                <p class="hero-subtext">
+                    High-impact protective padding engineered for safety, durability, and performance in professional
+                    and community sports facilities.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#" class="btn-enquire">Enquire Now</a>
+                    <a href="#" class="btn-demo">Watch Product Demo</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section py-5 scroll-animate">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- LEFT -->
+                <div class="col-lg-7 mb-4 mb-lg-0 animate-item">
+                    <div class="about-image-wrapper">
+                        <img src="./images/Group 5 (2).png" alt="About" class="img-fluid about-main-img">
+
+                        <!-- Counter Pill -->
+                        <div class="counter-pill">
+                            <div class="counter-number">
+                                <span id="yearCounter">0</span>+
+                            </div>
+                            <div class="counter-text typing-text">
+                                Years <span style="font-weight: 400;">in Business</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="col-lg-5 animate-item">
+                    <h2 class="about-heading">
+                        <span class="typing-line line-1">Built for Safety.</span>
+                        <span class="typing-line line-2">Designed for Performance.</span>
+                    </h2>
+
+                    <p class="about-tagline">
+                        UK Manufacturing with a Focus on Safety and Performance
+                    </p>
+
+                    <p class="about-desc">
+                        We manufacture high-quality sports arena wall padding designed to improve safety and performance
+                        in active sports environments. Made in the UK, our products are built to withstand repeated
+                        impact while delivering a clean, professional finish for arenas, gyms, and training facilities.
+                        We work closely with clients to provide reliable, fit-for-purpose solutions tailored to each
+                        space.
+                    </p>
+
+                    <ul class="about-features">
+                        <li>
+                            <img src="./images/CheckCircle.png" alt="">
+                            Impact-absorbing foam core
+                        </li>
+                        <li>
+                            <img src="./images/CheckCircle.png" alt="">
+                            Heavy-duty, long-lasting outer finish
+                        </li>
+                        <li>
+                            <img src="./images/CheckCircle.png" alt="">
+                            Custom sizing for any arena
+                        </li>
+                        <li>
+                            <img src="./images/CheckCircle.png" alt="">
+                            Easy installation and maintenance
+                        </li>
+                        <li>
+                            <img src="./images/CheckCircle.png" alt="">
+                            Suitable for indoor sports environments
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <div class="container text-center">
+
+            <h2 class="video-heading">
+                Professional Wall <br>
+                <span style="font-weight: 400;">Padding You Can Rely On</span>
+            </h2>
+
+            <p class="video-subtext">
+                See why sports facilities across the UK choose our wall padding solutions.
+            </p>
+
+            <!-- Video Block -->
+            <div class="video-wrapper">
+                <img src="./images/Rectangle 5.png" alt="Video" class="img-fluid video-thumb">
+
+                <!-- Play Button -->
+                <div class="play-btn">
+                    <span class="play-icon"></span>
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <a href="#" class="btn-enquire">Enquire Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="facilities-section py-5">
+        <div class="container">
+
+            <h2 class="facilities-heading text-center">
+                Ideal for a Wide Range of <br>
+                <span style="font-weight: 400;">Sports Facilities</span>
+            </h2>
+
+            <div class="row mt-4 g-4">
+
+                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="facility-card" style="background-image: url('./images/Frame\ 26.png');">
+                        <a href="#" class="facility-btn">Indoor Sports Arenas</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="facility-card" style="background-image: url('./images/Frame\ 27.png');">
+                        <a href="#" class="facility-btn">School & College Gymnasiums</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="facility-card" style="background-image: url('./images/Frame\ 28.png');">
+                        <a href="#" class="facility-btn">Professional Training Facilities</a>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="facility-card" style="background-image: url('./images/Frame\ 29.png');">
+                        <a href="#" class="facility-btn">Community Sports Halls</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <h2 class="gallery-heading">Installation <span style="font-weight: 400;">Gallery</span></h2>
+
+        <div class="gallery-iframe-wrap">
+            <iframe src="demo.html" frameborder="0" class="gallery-iframe"></iframe>
+        </div>
+    </section>
+
+    <section class="why-section scroll-animate">
+        <div class="why-container">
+
+            <!-- Top Row -->
+            <div class="why-top scroll-animate">
+                <h2 class="why-heading">
+                    Why Facilities Choose<br>
+                    <span style="font-weight: 400;">Our Wall Padding</span>
+                </h2>
+
+                <p class="why-desc">
+                    We combine UK-based manufacturing, practical design expertise, and a clear understanding of sports
+                    environments to deliver wall padding solutions that prioritise safety, durability, and a
+                    professional finish.
+                </p>
+            </div>
+
+            <!-- Middle Row -->
+            <div class="why-middle scroll-animate">
+
+                <!-- Left Cards -->
+                <div class="why-cards left">
+                    <div class="why-card">
+                        <img src="./images/Mask group (22).png" alt="">
+                        <h4>UK-Manufactured to <br>Consistent Standards</h4>
+                        <p>Designed and produced in the UK to ensure reliable quality, controlled manufacturing, and
+                            dependable lead times.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <img src="./images/Mask group (23).png" alt="">
+                        <h4>Engineered for Demanding Sports Environments</h4>
+                        <p>Built to handle repeated impact in active arenas, gyms, and training spaces without
+                            compromising performance.</p>
+                    </div>
+                </div>
+
+                <!-- Center Image -->
+                <div class="why-image">
+                    <img src="./images/Rectangle 18 (3).png" alt="">
+                </div>
+
+                <!-- Right Cards -->
+                <div class="why-cards right">
+                    <div class="why-card">
+                        <img src="./images/Mask group (24).png" alt="">
+                        <h4>Tailored Solutions for Every Facility Layout</h4>
+                        <p>Custom sizing ensures a precise fit and a clean, professional installation in any sports
+                            space.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <img src="./images/Mask group (25).png" alt="">
+                        <h4>A Professional Finish That Performs Long-Term</h4>
+                        <p>Delivers both impact protection and a durable, smart appearance suited to modern sports
+                            facilities.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Marquee -->
+        <div class="why-marquee scroll-animate">
+            <div class="marquee-track">
+                <div class="marquee-item"><span></span> REQUEST A QUOTE</div>
+                <div class="marquee-item"><span></span> REQUEST A QUOTE</div>
+                <div class="marquee-item"><span></span> REQUEST A QUOTE</div>
+                <div class="marquee-item"><span></span> REQUEST A QUOTE</div>
+                <div class="marquee-item"><span></span> REQUEST A QUOTE</div>
+                <div class="marquee-item"><span></span> REQUEST A QUOTE</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer-container">
+
+            <div class="footer-grid">
+                <!-- LEFT -->
+                <div class="footer-left">
+                    <h2>Enquire About Sports<br>Arena Wall Padding</h2>
+
+                    <p class="footer-desc">
+                        If you have questions or need guidance, our team is ready to listen and support you.
+                    </p>
+
+                    <a href="mailto:info@safewall.com" class="footer-link">
+                        <span class="arrow">→</span>
+                        <span class="link-text">info@safewall.com</span>
+                    </a>
+
+                    <a href="tel:+1234567890" class="footer-link">
+                        <span class="arrow">→</span>
+                        <span class="link-text">+123 456 7890</span>
+                    </a>
+
+                    <div class="footer-social">
+                        <span>(Connect with us)</span>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="footer-right">
+                    <form class="footer-form">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your Name">
+
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter your email">
+
+                        <label>Phone Number</label>
+                        <input type="text" placeholder="Enter your phone">
+
+                        <label>Organisation</label>
+                        <input type="text" placeholder="Enter your organisation">
+
+                        <label>Message</label>
+                        <textarea rows="4" placeholder="Tell us something...."></textarea>
+
+                        <button type="submit" class="footer-btn">Send Enquiry</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- DIVIDER -->
+            <div class="footer-divider"></div>
+
+            <!-- BOTTOM -->
+            <div class="footer-bottom">
+                <p>Copyright © 2026 SafeWall. All Rights Reserved.</p>
+                <div class="footer-policy">
+                    <a href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="scroll.js"></script>
+    <script src="counter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
